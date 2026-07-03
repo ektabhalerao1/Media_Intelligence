@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+reader/__pycache__/
+.cache/
+
+# local environment secrets
+.env
