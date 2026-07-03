@@ -100,6 +100,13 @@ GEMINI_MODEL="gemini-2.0-flash"
 # GEMINI_BASE_URL="https://generativelanguage.googleapis.com/v1beta/openai"
 ```
 
+Gemini authentication notes:
+
+- Use a Gemini API key (or `GOOGLE_API_KEY`) from Google AI Studio.
+- Do not use OAuth/login access tokens for `GEMINI_API_KEY`.
+- If overriding `GEMINI_BASE_URL`, keep it OpenAI-compatible:
+	`https://generativelanguage.googleapis.com/v1beta/openai/`
+
 Option 2: Export variables in terminal.
 
 ```bash
